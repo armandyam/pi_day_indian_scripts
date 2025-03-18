@@ -1,0 +1,87 @@
+{
+  "grid": [
+    [
+      {
+        "digit": "3",
+        "script": "Latin",
+        "value": "3",
+        "highlight": false
+      },
+      {
+        "digit": "2",
+        "script": "Devanagari",
+        "value": "2",
+        "highlight": false
+      },
+      {
+        "digit": "3",
+        "script": "Bengali",
+        "value": "3",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "4",
+        "script": "Gujarati",
+        "value": "4",
+        "highlight": false
+      },
+      {
+        "digit": "5",
+        "script": "Gurmukhi",
+        "value": "5",
+        "highlight": true
+      },
+      {
+        "digit": "6",
+        "script": "Kannada",
+        "value": "6",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "7",
+        "script": "Malayalam",
+        "value": "7",
+        "highlight": false
+      },
+      {
+        "digit": "8",
+        "script": "Tamil",
+        "value": "8",
+        "highlight": false
+      },
+      {
+        "digit": "9",
+        "script": "Telugu",
+        "value": "9",
+        "highlight": false
+      }
+    ]
+  ],
+  "rows": 3,
+  "cols": 3,
+  "num_digits": 9,
+  "seed": 42,
+  "script_usage": {
+    "Latin": 1,
+    "Devanagari": 1,
+    "Bengali": 1,
+    "Gujarati": 1,
+    "Gurmukhi": 1,
+    "Kannada": 1,
+    "Malayalam": 1,
+    "Tamil": 1,
+    "Telugu": 1,
+    "Odia": 0,
+    "Urdu": 0,
+    "Assamese": 0,
+    "Kashmiri": 0,
+    "Sindhi": 0,
+    "Manipuri": 0,
+    "Ol Chiki": 0
+  },
+  "total_scripts_used": 16
+}

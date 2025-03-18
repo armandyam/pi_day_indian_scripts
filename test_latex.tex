@@ -1,0 +1,92 @@
+\documentclass[a4paper,10pt]{article}
+
+% Essential packages
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{lmodern}
+
+% Set margins
+\usepackage[margin=1cm]{geometry}
+
+% Define colors
+\definecolor{highlight}{RGB}{227, 76, 60}
+
+% Font declarations for Indian scripts
+\newfontfamily\LatinFont[Path=./fonts/]{texgyrepagella-regular.otf}
+\newfontfamily\DevanagariFont[Path=./fonts/]{NotoSansDevanagari-Regular.ttf}
+\newfontfamily\BengaliFont[Path=./fonts/]{NotoSansBengali-Regular.ttf}
+\newfontfamily\GujaratiFont[Path=./fonts/]{NotoSansGujarati-Regular.ttf}
+\newfontfamily\GurmukhiFont[Path=./fonts/]{NotoSansGurmukhi-Regular.ttf}
+\newfontfamily\KannadaFont[Path=./fonts/]{NotoSansKannada-Regular.ttf}
+\newfontfamily\MalayalamFont[Path=./fonts/]{NotoSansMalayalam-Regular.ttf}
+\newfontfamily\TamilFont[Path=./fonts/]{NotoSansTamil-Regular.ttf}
+\newfontfamily\TeluguFont[Path=./fonts/]{NotoSansTelugu-Regular.ttf}
+\newfontfamily\OdiaFont[Path=./fonts/]{NotoSansOriya-Regular.ttf}
+\newfontfamily\UrduFont[Path=./fonts/]{NotoSansArabic-Regular.ttf}
+\newfontfamily\AssameseFont[Path=./fonts/]{NotoSansBengali-Regular.ttf}
+\newfontfamily\KashmiriFont[Path=./fonts/]{NotoSansArabic-Regular.ttf}
+\newfontfamily\SindhiFont[Path=./fonts/]{NotoSansArabic-Regular.ttf}
+\newfontfamily\ManipuriFont[Path=./fonts/]{NotoSansMeeteiMayek-Regular.ttf}
+\newfontfamily\OlChikiFont[Path=./fonts/]{NotoSansOlChiki-Regular.ttf}
+
+\begin{document}
+
+% Title
+\begin{center}
+\Huge\textbf{LaTeX Test}
+\end{center}
+
+% Grid setup
+\begin{center}
+\begin{tikzpicture}[inner sep=0pt]
+\draw[line width=0.5pt] (0,0) rectangle (2.0,2.0);  % Add 0.5cm margin
+\node at (0.5,1.5) {\normalsize\LatinFont {3}};
+\node at (1.0,1.5) {\normalsize\DevanagariFont {2}};
+\node at (1.5,1.5) {\normalsize\BengaliFont {3}};
+\node at (0.5,1.0) {\normalsize\GujaratiFont {4}};
+\node at (1.0,1.0) {\normalsize\GurmukhiFont \textcolor{highlight}{5}};
+\node at (1.5,1.0) {\normalsize\KannadaFont {6}};
+\node at (0.5,0.5) {\normalsize\MalayalamFont {7}};
+\node at (1.0,0.5) {\normalsize\TamilFont {8}};
+\node at (1.5,0.5) {\normalsize\TeluguFont {9}};
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.5cm}
+\begin{center}
+\textbf{Statistics}
+\end{center}
+
+\begin{multicols}{2}
+\begin{itemize}
+\item Number of digits: 9
+\item Grid dimensions: 3 $\times$ 3
+\item Indian scripts used: 16
+\item Random seed: 42
+\end{itemize}
+
+\columnbreak
+
+\textbf{Scripts Usage:}
+\begin{itemize}
+\item Latin: 1
+\item Devanagari: 1
+\item Bengali: 1
+\item Gujarati: 1
+\item Gurmukhi: 1
+\item Kannada: 1
+\item Malayalam: 1
+\item Tamil: 1
+\item Telugu: 1
+\end{itemize}
+\end{multicols}
+
+\vspace{1cm}
+\begin{center}
+\small This visualization was generated using a Python program. The 3 in Latin stands as the first digit of $\pi$.\\
+Red digits form the shape of the $\pi$ symbol within the grid.
+\end{center}
+
+\end{document}

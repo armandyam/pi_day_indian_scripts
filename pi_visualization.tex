@@ -1,0 +1,244 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, top=2cm, left=0.5cm, right=0.5cm, bottom=0.5cm]{geometry} % Margins: top=2cm, left/right=0.5cm, bottom=0.5cm
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\setmainfont{Noto Sans}
+\definecolor{bg}{RGB}{252, 252, 252}
+\definecolor{gridline}{RGB}{220, 220, 220}
+\definecolor{title}{RGB}{50, 50, 50}
+\definecolor{highlight}{RGB}{231, 76, 60}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+\pagecolor{bg}
+\pagecolor{white} % White background
+\begin{document}
+\thispagestyle{empty} % Remove page number
+\begin{center}
+{\Huge\textbf{π in Indian Scripts}}
+\vspace{0.5cm}
+\end{center}
+\begin{center}
+\begin{tikzpicture}
+\draw[fill=white, draw=none] (0,0) rectangle (12,17);
+\node at (0.5,16.5) {{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 3}};
+\node at (1.5,16.5) {{\fontsize{33.4pt}{40.0pt}\selectfont .}};
+\node at (2.5,16.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ১}};
+\node at (3.5,16.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৪}};
+\node at (4.5,16.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont १}};
+\node at (5.5,16.5) {{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૫}};
+\node at (6.5,16.5) {{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੯}};
+\node at (7.5,16.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೨}};
+\node at (8.5,16.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൬}};
+\node at (9.5,16.5) {{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୫}};
+\node at (10.5,16.5) {{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱓}};
+\node at (11.5,16.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௫}};
+\node at (0.5,15.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౮}};
+\node at (1.5,15.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۹}};
+\node at (2.5,15.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۷}};
+\node at (3.5,15.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۹}};
+\node at (4.5,15.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯳}};
+\node at (5.5,15.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ২}};
+\node at (6.5,15.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৩}};
+\node at (7.5,15.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ८}};
+\node at (8.5,15.5) {{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૪}};
+\node at (9.5,15.5) {{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੬}};
+\node at (10.5,15.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೨}};
+\node at (11.5,15.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൬}};
+\node at (0.5,14.5) {{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୪}};
+\node at (1.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱓}};
+\node at (2.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௩}};
+\node at (3.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౮}};
+\node at (4.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۳}};
+\node at (5.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۲}};
+\node at (6.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۷}};
+\node at (7.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯹}};
+\node at (8.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৫}};
+\node at (9.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ০}};
+\node at (10.5,14.5) {\textcolor{highlight}{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont २}};
+\node at (11.5,14.5) {{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૮}};
+\node at (0.5,13.5) {{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੮}};
+\node at (1.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೪}};
+\node at (2.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൧}};
+\node at (3.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୯}};
+\node at (4.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱗}};
+\node at (5.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௧}};
+\node at (6.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౬}};
+\node at (7.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۹}};
+\node at (8.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۳}};
+\node at (9.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۹}};
+\node at (10.5,13.5) {\textcolor{highlight}{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯹}};
+\node at (11.5,13.5) {{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 3}};
+\node at (0.5,12.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৭}};
+\node at (1.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৫}};
+\node at (2.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont १}};
+\node at (3.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૦}};
+\node at (4.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੫}};
+\node at (5.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೮}};
+\node at (6.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൨}};
+\node at (7.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୦}};
+\node at (8.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱙}};
+\node at (9.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௭}};
+\node at (10.5,12.5) {\textcolor{highlight}{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౪}};
+\node at (11.5,12.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۹}};
+\node at (0.5,11.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۴}};
+\node at (1.5,11.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۴}};
+\node at (2.5,11.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯵}};
+\node at (3.5,11.5) {\textcolor{highlight}{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 9}};
+\node at (4.5,11.5) {\textcolor{highlight}{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ২}};
+\node at (5.5,11.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৩}};
+\node at (6.5,11.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ०}};
+\node at (7.5,11.5) {\textcolor{highlight}{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૭}};
+\node at (8.5,11.5) {\textcolor{highlight}{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੮}};
+\node at (9.5,11.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೧}};
+\node at (10.5,11.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൬}};
+\node at (11.5,11.5) {{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୪}};
+\node at (0.5,10.5) {{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱐}};
+\node at (1.5,10.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௬}};
+\node at (2.5,10.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౨}};
+\node at (3.5,10.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۸}};
+\node at (4.5,10.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۶}};
+\node at (5.5,10.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۲}};
+\node at (6.5,10.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯰}};
+\node at (7.5,10.5) {\textcolor{highlight}{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 8}};
+\node at (8.5,10.5) {\textcolor{highlight}{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৯}};
+\node at (9.5,10.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৯}};
+\node at (10.5,10.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ८}};
+\node at (11.5,10.5) {{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૬}};
+\node at (0.5,9.5) {{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੨}};
+\node at (1.5,9.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೮}};
+\node at (2.5,9.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൦}};
+\node at (3.5,9.5) {\textcolor{highlight}{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୩}};
+\node at (4.5,9.5) {\textcolor{highlight}{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱔}};
+\node at (5.5,9.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௮}};
+\node at (6.5,9.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౨}};
+\node at (7.5,9.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۵}};
+\node at (8.5,9.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۳}};
+\node at (9.5,9.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۴}};
+\node at (10.5,9.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯲}};
+\node at (11.5,9.5) {{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 1}};
+\node at (0.5,8.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ১}};
+\node at (1.5,8.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৭}};
+\node at (2.5,8.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ०}};
+\node at (3.5,8.5) {\textcolor{highlight}{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૬}};
+\node at (4.5,8.5) {\textcolor{highlight}{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੭}};
+\node at (5.5,8.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೯}};
+\node at (6.5,8.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൮}};
+\node at (7.5,8.5) {\textcolor{highlight}{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୨}};
+\node at (8.5,8.5) {\textcolor{highlight}{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱑}};
+\node at (9.5,8.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௪}};
+\node at (10.5,8.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౮}};
+\node at (11.5,8.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۰}};
+\node at (0.5,7.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۸}};
+\node at (1.5,7.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۶}};
+\node at (2.5,7.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯵}};
+\node at (3.5,7.5) {\textcolor{highlight}{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 1}};
+\node at (4.5,7.5) {\textcolor{highlight}{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৩}};
+\node at (5.5,7.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ২}};
+\node at (6.5,7.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ८}};
+\node at (7.5,7.5) {\textcolor{highlight}{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૨}};
+\node at (8.5,7.5) {\textcolor{highlight}{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੩}};
+\node at (9.5,7.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೦}};
+\node at (10.5,7.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൬}};
+\node at (11.5,7.5) {{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୬}};
+\node at (0.5,6.5) {{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱔}};
+\node at (1.5,6.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௭}};
+\node at (2.5,6.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౦}};
+\node at (3.5,6.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۹}};
+\node at (4.5,6.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۳}};
+\node at (5.5,6.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۸}};
+\node at (6.5,6.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯴}};
+\node at (7.5,6.5) {\textcolor{highlight}{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 4}};
+\node at (8.5,6.5) {\textcolor{highlight}{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৬}};
+\node at (9.5,6.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ০}};
+\node at (10.5,6.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ९}};
+\node at (11.5,6.5) {{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૫}};
+\node at (0.5,5.5) {{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੫}};
+\node at (1.5,5.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೦}};
+\node at (2.5,5.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൫}};
+\node at (3.5,5.5) {\textcolor{highlight}{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୮}};
+\node at (4.5,5.5) {\textcolor{highlight}{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱒}};
+\node at (5.5,5.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௨}};
+\node at (6.5,5.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౩}};
+\node at (7.5,5.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۱}};
+\node at (8.5,5.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۷}};
+\node at (9.5,5.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۲}};
+\node at (10.5,5.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯵}};
+\node at (11.5,5.5) {{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 3}};
+\node at (0.5,4.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৫}};
+\node at (1.5,4.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৯}};
+\node at (2.5,4.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ४}};
+\node at (3.5,4.5) {\textcolor{highlight}{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૦}};
+\node at (4.5,4.5) {\textcolor{highlight}{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੮}};
+\node at (5.5,4.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೧}};
+\node at (6.5,4.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൨}};
+\node at (7.5,4.5) {\textcolor{highlight}{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୮}};
+\node at (8.5,4.5) {\textcolor{highlight}{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱔}};
+\node at (9.5,4.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௮}};
+\node at (10.5,4.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౧}};
+\node at (11.5,4.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۱}};
+\node at (0.5,3.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۱}};
+\node at (1.5,3.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۷}};
+\node at (2.5,3.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯴}};
+\node at (3.5,3.5) {\textcolor{highlight}{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 5}};
+\node at (4.5,3.5) {\textcolor{highlight}{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ০}};
+\node at (5.5,3.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ২}};
+\node at (6.5,3.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ८}};
+\node at (7.5,3.5) {\textcolor{highlight}{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૪}};
+\node at (8.5,3.5) {\textcolor{highlight}{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੧}};
+\node at (9.5,3.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೦}};
+\node at (10.5,3.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൨}};
+\node at (11.5,3.5) {{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୭}};
+\node at (0.5,2.5) {{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱐}};
+\node at (1.5,2.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௧}};
+\node at (2.5,2.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౯}};
+\node at (3.5,2.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۳}};
+\node at (4.5,2.5) {\textcolor{highlight}{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۸}};
+\node at (5.5,2.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۵}};
+\node at (6.5,2.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯲}};
+\node at (7.5,2.5) {\textcolor{highlight}{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 1}};
+\node at (8.5,2.5) {\textcolor{highlight}{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ১}};
+\node at (9.5,2.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ০}};
+\node at (10.5,2.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ५}};
+\node at (11.5,2.5) {{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૫}};
+\node at (0.5,1.5) {{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੫}};
+\node at (1.5,1.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೯}};
+\node at (2.5,1.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൬}};
+\node at (3.5,1.5) {{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୪}};
+\node at (4.5,1.5) {{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱔}};
+\node at (5.5,1.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௬}};
+\node at (6.5,1.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౨}};
+\node at (7.5,1.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۲}};
+\node at (8.5,1.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۹}};
+\node at (9.5,1.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۴}};
+\node at (10.5,1.5) {{\fontspec{Noto Sans Meetei Mayek}\fontsize{33.4pt}{40.0pt}\selectfont ꯸}};
+\node at (11.5,1.5) {{\fontspec{Noto Sans}\fontsize{33.4pt}{40.0pt}\selectfont 9}};
+\node at (0.5,0.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৫}};
+\node at (1.5,0.5) {{\fontspec{Noto Sans Bengali}\fontsize{33.4pt}{40.0pt}\selectfont ৪}};
+\node at (2.5,0.5) {{\fontspec{Noto Sans Devanagari}\fontsize{33.4pt}{40.0pt}\selectfont ९}};
+\node at (3.5,0.5) {{\fontspec{Noto Sans Gujarati}\fontsize{33.4pt}{40.0pt}\selectfont ૩}};
+\node at (4.5,0.5) {{\fontspec{Noto Sans Gurmukhi}\fontsize{33.4pt}{40.0pt}\selectfont ੦}};
+\node at (5.5,0.5) {{\fontspec{Noto Sans Kannada}\fontsize{33.4pt}{40.0pt}\selectfont ೩}};
+\node at (6.5,0.5) {{\fontspec{Noto Sans Malayalam}\fontsize{33.4pt}{40.0pt}\selectfont ൮}};
+\node at (7.5,0.5) {{\fontspec{Noto Sans Oriya}\fontsize{33.4pt}{40.0pt}\selectfont ୧}};
+\node at (8.5,0.5) {{\fontspec{Noto Sans Ol Chiki}\fontsize{33.4pt}{40.0pt}\selectfont ᱙}};
+\node at (9.5,0.5) {{\fontspec{Noto Sans Tamil}\fontsize{33.4pt}{40.0pt}\selectfont ௬}};
+\node at (10.5,0.5) {{\fontspec{Noto Sans Telugu}\fontsize{33.4pt}{40.0pt}\selectfont ౪}};
+\node at (11.5,0.5) {{\fontspec{Noto Sans Arabic}\fontsize{33.4pt}{40.0pt}\selectfont ۴}};
+\end{tikzpicture}
+\end{center}
+\vspace{1cm}
+\vfill
+\begin{center}
+\tiny{This poster displays the first 204 digits of π using 16 different Indian numeral scripts.}
+\end{center}
+\end{document}
