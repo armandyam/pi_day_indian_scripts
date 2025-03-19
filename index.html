@@ -253,7 +253,7 @@
             <div class="form-group">
                 <label for="num-digits">Number of Digits:</label>
                 <div class="slider-container">
-                    <input type="range" id="num-digits" min="10" max="1000" value="200" step="10">
+                    <input type="range" id="num-digits" min="10" max="430" value="200" step="10">
                     <div class="slider-value" id="digits-value">200 digits</div>
                     <div class="dimensions-info" id="dimensions-info">(Optimal grid: calculating...)</div>
                 </div>
@@ -262,6 +262,18 @@
             <div class="form-group">
                 <label for="seed">Random Seed (leave empty for random):</label>
                 <input type="number" id="seed" placeholder="e.g. 42">
+            </div>
+            
+            <div class="form-group">
+                <label for="sampling-strategy">Script Selection Strategy:</label>
+                <select id="sampling-strategy">
+                    <option value="random" selected>Random (New pattern each time)</option>
+                    <option value="least_used">Balanced (Even distribution)</option>
+                    <option value="weighted">Custom Weighted (Advanced)</option>
+                </select>
+                <p class="help-text">
+                    <small>Random: Different patterns every time | Balanced: Even script distribution</small>
+                </p>
             </div>
             
             <div class="form-group">
@@ -312,6 +324,7 @@
         const digitsValueDisplay = document.getElementById('digits-value');
         const dimensionsInfo = document.getElementById('dimensions-info');
         const seedInput = document.getElementById('seed');
+        const samplingStrategySelect = document.getElementById('sampling-strategy');
         const titleInput = document.getElementById('title');
         const generateBtn = document.getElementById('generate-btn');
         const downloadLatexBtn = document.getElementById('download-latex-btn');
@@ -348,7 +361,18 @@
             showLoading();
             
             const numDigits = parseInt(numDigitsInput.value);
-            const seed = seedInput.value ? parseInt(seedInput.value) : null;
+            // Process seed value properly
+            let seed = seedInput.value.trim();
+            seed = seed ? parseInt(seed) : null;
+            
+            // Get the selected sampling strategy
+            const samplingStrategy = samplingStrategySelect.value;
+            
+            // Store the seed value in the input field even if it was generated
+            // randomly on the server, for reproducibility
+            if (seed !== null) {
+                seedInput.value = seed;
+            }
             
             try {
                 // Call the backend to generate data
@@ -357,7 +381,11 @@
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ num_digits: numDigits, seed }),
+                    body: JSON.stringify({ 
+                        num_digits: numDigits, 
+                        seed, 
+                        sampling_strategy: samplingStrategy 
+                    }),
                 });
                 
                 if (!response.ok) {
@@ -367,6 +395,11 @@
                 piData = await response.json();
                 renderGrid(piData);
                 updateStats(piData);
+                
+                // Update the seed input with the actual seed used (for reproducibility)
+                if (piData.seed && !seedInput.value) {
+                    seedInput.value = piData.seed;
+                }
                 
             } catch (error) {
                 console.error('Error generating visualization:', error);
@@ -431,7 +464,7 @@
         }
         
         function updateStats(data) {
-            statsText.textContent = `Using ${data.total_scripts_used} different Indian scripts to display ${data.rows * data.cols} digits of π in a ${data.rows}×${data.cols} grid. Seed: ${data.seed}`;
+            statsText.textContent = `Using ${data.total_scripts_used} different Indian scripts to display ${data.rows * data.cols} digits of π in a ${data.rows}×${data.cols} grid. Seed: ${data.seed} | Strategy: ${data.sampling_strategy}`;
             
             scriptList.innerHTML = '';
             

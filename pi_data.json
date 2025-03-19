@@ -14,29 +14,73 @@
         "highlight": false
       },
       {
-        "digit": "\u09e7",
-        "script": "Assamese",
-        "unicode": "0x9e7",
+        "digit": "\u0a67",
+        "script": "Gurmukhi",
+        "unicode": "0xa67",
         "highlight": false
       },
       {
         "digit": "\u09ea",
-        "script": "Bengali",
+        "script": "Assamese",
         "unicode": "0x9ea",
         "highlight": false
       },
       {
-        "digit": "\u0967",
-        "script": "Devanagari",
-        "unicode": "0x967",
+        "digit": "\u0be7",
+        "script": "Tamil",
+        "unicode": "0xbe7",
         "highlight": false
       },
       {
-        "digit": "\u0aeb",
-        "script": "Gujarati",
-        "unicode": "0xaeb",
+        "digit": "\u06f5",
+        "script": "Urdu",
+        "unicode": "0x6f5",
         "highlight": false
       },
+      {
+        "digit": "\u0bef",
+        "script": "Tamil",
+        "unicode": "0xbef",
+        "highlight": false
+      },
+      {
+        "digit": "\u0a68",
+        "script": "Gurmukhi",
+        "unicode": "0xa68",
+        "highlight": false
+      },
+      {
+        "digit": "\u09ec",
+        "script": "Bengali",
+        "unicode": "0x9ec",
+        "highlight": false
+      },
+      {
+        "digit": "\u096b",
+        "script": "Devanagari",
+        "unicode": "0x96b",
+        "highlight": false
+      },
+      {
+        "digit": "\u0be9",
+        "script": "Tamil",
+        "unicode": "0xbe9",
+        "highlight": false
+      },
+      {
+        "digit": "5",
+        "script": "Latin",
+        "unicode": "0x35",
+        "highlight": false
+      },
+      {
+        "digit": "\u0b6e",
+        "script": "Odia",
+        "unicode": "0xb6e",
+        "highlight": false
+      }
+    ],
+    [
       {
         "digit": "\u0a6f",
         "script": "Gurmukhi",
@@ -44,89 +88,57 @@
         "highlight": false
       },
       {
-        "digit": "\u0ce8",
-        "script": "Kannada",
-        "unicode": "0xce8",
-        "highlight": false
-      },
-      {
-        "digit": "\u0d6c",
-        "script": "Malayalam",
-        "unicode": "0xd6c",
-        "highlight": false
-      },
-      {
-        "digit": "\u0b6b",
-        "script": "Odia",
-        "unicode": "0xb6b",
-        "highlight": false
-      },
-      {
-        "digit": "\u1c53",
-        "script": "Ol Chiki",
-        "unicode": "0x1c53",
-        "highlight": false
-      },
-      {
-        "digit": "\u0beb",
-        "script": "Tamil",
-        "unicode": "0xbeb",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u0c6e",
-        "script": "Telugu",
-        "unicode": "0xc6e",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f9",
-        "script": "Urdu",
-        "unicode": "0x6f9",
-        "highlight": false
-      },
-      {
         "digit": "\u06f7",
-        "script": "Kashmiri",
+        "script": "Sindhi",
         "unicode": "0x6f7",
         "highlight": false
       },
       {
-        "digit": "\u06f9",
-        "script": "Sindhi",
-        "unicode": "0x6f9",
+        "digit": "\u1c59",
+        "script": "Ol Chiki",
+        "unicode": "0x1c59",
         "highlight": false
       },
       {
-        "digit": "\uabf3",
-        "script": "Manipuri",
-        "unicode": "0xabf3",
+        "digit": "\u0b69",
+        "script": "Odia",
+        "unicode": "0xb69",
         "highlight": false
       },
       {
         "digit": "\u09e8",
-        "script": "Assamese",
+        "script": "Bengali",
         "unicode": "0x9e8",
         "highlight": false
       },
       {
-        "digit": "\u09e9",
-        "script": "Bengali",
-        "unicode": "0x9e9",
+        "digit": "\u0a69",
+        "script": "Gurmukhi",
+        "unicode": "0xa69",
         "highlight": false
       },
       {
-        "digit": "\u096e",
+        "digit": "\u09ee",
+        "script": "Assamese",
+        "unicode": "0x9ee",
+        "highlight": false
+      },
+      {
+        "digit": "\u096a",
         "script": "Devanagari",
-        "unicode": "0x96e",
+        "unicode": "0x96a",
         "highlight": false
       },
       {
-        "digit": "\u0aea",
-        "script": "Gujarati",
-        "unicode": "0xaea",
+        "digit": "\u0b6c",
+        "script": "Odia",
+        "unicode": "0xb6c",
+        "highlight": false
+      },
+      {
+        "digit": "\u0d68",
+        "script": "Malayalam",
+        "unicode": "0xd68",
         "highlight": false
       },
       {
@@ -136,9 +148,583 @@
         "highlight": false
       },
       {
+        "digit": "\u0c6a",
+        "script": "Telugu",
+        "unicode": "0xc6a",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f3",
+        "script": "Urdu",
+        "unicode": "0x6f3",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "\u09e9",
+        "script": "Assamese",
+        "unicode": "0x9e9",
+        "highlight": false
+      },
+      {
+        "digit": "\u0c6e",
+        "script": "Telugu",
+        "unicode": "0xc6e",
+        "highlight": true
+      },
+      {
+        "digit": "\uabf3",
+        "script": "Manipuri",
+        "unicode": "0xabf3",
+        "highlight": true
+      },
+      {
+        "digit": "\u0ae8",
+        "script": "Gujarati",
+        "unicode": "0xae8",
+        "highlight": true
+      },
+      {
+        "digit": "\u1c57",
+        "script": "Ol Chiki",
+        "unicode": "0x1c57",
+        "highlight": true
+      },
+      {
+        "digit": "\u0bef",
+        "script": "Tamil",
+        "unicode": "0xbef",
+        "highlight": true
+      },
+      {
+        "digit": "\u09eb",
+        "script": "Bengali",
+        "unicode": "0x9eb",
+        "highlight": true
+      },
+      {
+        "digit": "\uabf0",
+        "script": "Manipuri",
+        "unicode": "0xabf0",
+        "highlight": true
+      },
+      {
         "digit": "\u0ce8",
         "script": "Kannada",
         "unicode": "0xce8",
+        "highlight": true
+      },
+      {
+        "digit": "8",
+        "script": "Latin",
+        "unicode": "0x38",
+        "highlight": true
+      },
+      {
+        "digit": "\u1c58",
+        "script": "Ol Chiki",
+        "unicode": "0x1c58",
+        "highlight": true
+      },
+      {
+        "digit": "\u0b6a",
+        "script": "Odia",
+        "unicode": "0xb6a",
+        "highlight": true
+      },
+      {
+        "digit": "\u1c51",
+        "script": "Ol Chiki",
+        "unicode": "0x1c51",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "\u0b6f",
+        "script": "Odia",
+        "unicode": "0xb6f",
+        "highlight": false
+      },
+      {
+        "digit": "\u0bed",
+        "script": "Tamil",
+        "unicode": "0xbed",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f1",
+        "script": "Kashmiri",
+        "unicode": "0x6f1",
+        "highlight": true
+      },
+      {
+        "digit": "\u09ec",
+        "script": "Bengali",
+        "unicode": "0x9ec",
+        "highlight": true
+      },
+      {
+        "digit": "\u0d6f",
+        "script": "Malayalam",
+        "unicode": "0xd6f",
+        "highlight": true
+      },
+      {
+        "digit": "\u0ce9",
+        "script": "Kannada",
+        "unicode": "0xce9",
+        "highlight": true
+      },
+      {
+        "digit": "\u09ef",
+        "script": "Assamese",
+        "unicode": "0x9ef",
+        "highlight": true
+      },
+      {
+        "digit": "\u0b6f",
+        "script": "Odia",
+        "unicode": "0xb6f",
+        "highlight": true
+      },
+      {
+        "digit": "\u0c69",
+        "script": "Telugu",
+        "unicode": "0xc69",
+        "highlight": true
+      },
+      {
+        "digit": "\u0b6d",
+        "script": "Odia",
+        "unicode": "0xb6d",
+        "highlight": true
+      },
+      {
+        "digit": "\u0ceb",
+        "script": "Kannada",
+        "unicode": "0xceb",
+        "highlight": true
+      },
+      {
+        "digit": "1",
+        "script": "Latin",
+        "unicode": "0x31",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f0",
+        "script": "Urdu",
+        "unicode": "0x6f0",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "\u0c6b",
+        "script": "Telugu",
+        "unicode": "0xc6b",
+        "highlight": false
+      },
+      {
+        "digit": "\uabf8",
+        "script": "Manipuri",
+        "unicode": "0xabf8",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f2",
+        "script": "Sindhi",
+        "unicode": "0x6f2",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f0",
+        "script": "Urdu",
+        "unicode": "0x6f0",
+        "highlight": true
+      },
+      {
+        "digit": "\u0bef",
+        "script": "Tamil",
+        "unicode": "0xbef",
+        "highlight": true
+      },
+      {
+        "digit": "\u0a6d",
+        "script": "Gurmukhi",
+        "unicode": "0xa6d",
+        "highlight": true
+      },
+      {
+        "digit": "\u096a",
+        "script": "Devanagari",
+        "unicode": "0x96a",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f9",
+        "script": "Kashmiri",
+        "unicode": "0x6f9",
+        "highlight": true
+      },
+      {
+        "digit": "\u1c54",
+        "script": "Ol Chiki",
+        "unicode": "0x1c54",
+        "highlight": true
+      },
+      {
+        "digit": "\u0d6a",
+        "script": "Malayalam",
+        "unicode": "0xd6a",
+        "highlight": true
+      },
+      {
+        "digit": "\u0c6b",
+        "script": "Telugu",
+        "unicode": "0xc6b",
+        "highlight": true
+      },
+      {
+        "digit": "\u0a6f",
+        "script": "Gurmukhi",
+        "unicode": "0xa6f",
+        "highlight": true
+      },
+      {
+        "digit": "\u0ce8",
+        "script": "Kannada",
+        "unicode": "0xce8",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "\u0969",
+        "script": "Devanagari",
+        "unicode": "0x969",
+        "highlight": false
+      },
+      {
+        "digit": "\u0d66",
+        "script": "Malayalam",
+        "unicode": "0xd66",
+        "highlight": false
+      },
+      {
+        "digit": "\u0a6d",
+        "script": "Gurmukhi",
+        "unicode": "0xa6d",
+        "highlight": false
+      },
+      {
+        "digit": "\u1c58",
+        "script": "Ol Chiki",
+        "unicode": "0x1c58",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f1",
+        "script": "Kashmiri",
+        "unicode": "0x6f1",
+        "highlight": true
+      },
+      {
+        "digit": "6",
+        "script": "Latin",
+        "unicode": "0x36",
+        "highlight": true
+      },
+      {
+        "digit": "\u0c6a",
+        "script": "Telugu",
+        "unicode": "0xc6a",
+        "highlight": false
+      },
+      {
+        "digit": "\u0ae6",
+        "script": "Gujarati",
+        "unicode": "0xae6",
+        "highlight": true
+      },
+      {
+        "digit": "\uabf6",
+        "script": "Manipuri",
+        "unicode": "0xabf6",
+        "highlight": true
+      },
+      {
+        "digit": "\u0ce8",
+        "script": "Kannada",
+        "unicode": "0xce8",
+        "highlight": true
+      },
+      {
+        "digit": "\uabf8",
+        "script": "Manipuri",
+        "unicode": "0xabf8",
+        "highlight": false
+      },
+      {
+        "digit": "\u0aec",
+        "script": "Gujarati",
+        "unicode": "0xaec",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f2",
+        "script": "Sindhi",
+        "unicode": "0x6f2",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "\u1c50",
+        "script": "Ol Chiki",
+        "unicode": "0x1c50",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f8",
+        "script": "Urdu",
+        "unicode": "0x6f8",
+        "highlight": false
+      },
+      {
+        "digit": "9",
+        "script": "Latin",
+        "unicode": "0x39",
+        "highlight": false
+      },
+      {
+        "digit": "\u0cef",
+        "script": "Kannada",
+        "unicode": "0xcef",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f8",
+        "script": "Sindhi",
+        "unicode": "0x6f8",
+        "highlight": true
+      },
+      {
+        "digit": "\u0bec",
+        "script": "Tamil",
+        "unicode": "0xbec",
+        "highlight": true
+      },
+      {
+        "digit": "\u0b68",
+        "script": "Odia",
+        "unicode": "0xb68",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f8",
+        "script": "Sindhi",
+        "unicode": "0x6f8",
+        "highlight": true
+      },
+      {
+        "digit": "\u0966",
+        "script": "Devanagari",
+        "unicode": "0x966",
+        "highlight": true
+      },
+      {
+        "digit": "\u0b69",
+        "script": "Odia",
+        "unicode": "0xb69",
+        "highlight": true
+      },
+      {
+        "digit": "\u0c6a",
+        "script": "Telugu",
+        "unicode": "0xc6a",
+        "highlight": false
+      },
+      {
+        "digit": "\u1c58",
+        "script": "Ol Chiki",
+        "unicode": "0x1c58",
+        "highlight": false
+      },
+      {
+        "digit": "\u09e8",
+        "script": "Assamese",
+        "unicode": "0x9e8",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "\u09eb",
+        "script": "Assamese",
+        "unicode": "0x9eb",
+        "highlight": false
+      },
+      {
+        "digit": "\uabf3",
+        "script": "Manipuri",
+        "unicode": "0xabf3",
+        "highlight": false
+      },
+      {
+        "digit": "\u0bea",
+        "script": "Tamil",
+        "unicode": "0xbea",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f2",
+        "script": "Kashmiri",
+        "unicode": "0x6f2",
+        "highlight": true
+      },
+      {
+        "digit": "\u0967",
+        "script": "Devanagari",
+        "unicode": "0x967",
+        "highlight": true
+      },
+      {
+        "digit": "\u0ce7",
+        "script": "Kannada",
+        "unicode": "0xce7",
+        "highlight": true
+      },
+      {
+        "digit": "\u0d6d",
+        "script": "Malayalam",
+        "unicode": "0xd6d",
+        "highlight": false
+      },
+      {
+        "digit": "0",
+        "script": "Latin",
+        "unicode": "0x30",
+        "highlight": true
+      },
+      {
+        "digit": "\u0bec",
+        "script": "Tamil",
+        "unicode": "0xbec",
+        "highlight": true
+      },
+      {
+        "digit": "7",
+        "script": "Latin",
+        "unicode": "0x37",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f9",
+        "script": "Sindhi",
+        "unicode": "0x6f9",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f8",
+        "script": "Urdu",
+        "unicode": "0x6f8",
+        "highlight": false
+      },
+      {
+        "digit": "\u0a68",
+        "script": "Gurmukhi",
+        "unicode": "0xa68",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "\u1c51",
+        "script": "Ol Chiki",
+        "unicode": "0x1c51",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f4",
+        "script": "Urdu",
+        "unicode": "0x6f4",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f8",
+        "script": "Sindhi",
+        "unicode": "0x6f8",
+        "highlight": false
+      },
+      {
+        "digit": "0",
+        "script": "Latin",
+        "unicode": "0x30",
+        "highlight": true
+      },
+      {
+        "digit": "\u0a6e",
+        "script": "Gurmukhi",
+        "unicode": "0xa6e",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f6",
+        "script": "Sindhi",
+        "unicode": "0x6f6",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f5",
+        "script": "Kashmiri",
+        "unicode": "0x6f5",
+        "highlight": false
+      },
+      {
+        "digit": "\u09e7",
+        "script": "Assamese",
+        "unicode": "0x9e7",
+        "highlight": true
+      },
+      {
+        "digit": "\u0d69",
+        "script": "Malayalam",
+        "unicode": "0xd69",
+        "highlight": true
+      },
+      {
+        "digit": "\u0a68",
+        "script": "Gurmukhi",
+        "unicode": "0xa68",
+        "highlight": true
+      },
+      {
+        "digit": "\u0aee",
+        "script": "Gujarati",
+        "unicode": "0xaee",
+        "highlight": false
+      },
+      {
+        "digit": "\u0b68",
+        "script": "Odia",
+        "unicode": "0xb68",
+        "highlight": false
+      },
+      {
+        "digit": "\u0969",
+        "script": "Devanagari",
+        "unicode": "0x969",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "\u09e6",
+        "script": "Bengali",
+        "unicode": "0x9e6",
         "highlight": false
       },
       {
@@ -146,20 +732,36 @@
         "script": "Malayalam",
         "unicode": "0xd6c",
         "highlight": false
-      }
-    ],
-    [
+      },
       {
-        "digit": "\u0b6a",
-        "script": "Odia",
-        "unicode": "0xb6a",
+        "digit": "\u09ec",
+        "script": "Bengali",
+        "unicode": "0x9ec",
         "highlight": false
       },
       {
-        "digit": "\u1c53",
-        "script": "Ol Chiki",
-        "unicode": "0x1c53",
+        "digit": "\u0c6a",
+        "script": "Telugu",
+        "unicode": "0xc6a",
         "highlight": true
+      },
+      {
+        "digit": "\u06f7",
+        "script": "Kashmiri",
+        "unicode": "0x6f7",
+        "highlight": true
+      },
+      {
+        "digit": "\u09e6",
+        "script": "Assamese",
+        "unicode": "0x9e6",
+        "highlight": true
+      },
+      {
+        "digit": "9",
+        "script": "Latin",
+        "unicode": "0x39",
+        "highlight": false
       },
       {
         "digit": "\u0be9",
@@ -174,465 +776,71 @@
         "highlight": true
       },
       {
-        "digit": "\u06f3",
-        "script": "Urdu",
-        "unicode": "0x6f3",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f2",
-        "script": "Kashmiri",
-        "unicode": "0x6f2",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f7",
-        "script": "Sindhi",
-        "unicode": "0x6f7",
-        "highlight": true
-      },
-      {
-        "digit": "\uabf9",
-        "script": "Manipuri",
-        "unicode": "0xabf9",
-        "highlight": true
-      },
-      {
-        "digit": "\u09eb",
-        "script": "Assamese",
-        "unicode": "0x9eb",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e6",
-        "script": "Bengali",
-        "unicode": "0x9e6",
-        "highlight": true
-      },
-      {
-        "digit": "\u0968",
-        "script": "Devanagari",
-        "unicode": "0x968",
-        "highlight": true
-      },
-      {
-        "digit": "\u0aee",
-        "script": "Gujarati",
-        "unicode": "0xaee",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u0a6e",
-        "script": "Gurmukhi",
-        "unicode": "0xa6e",
-        "highlight": false
-      },
-      {
         "digit": "\u0cea",
         "script": "Kannada",
         "unicode": "0xcea",
         "highlight": true
       },
       {
-        "digit": "\u0d67",
-        "script": "Malayalam",
-        "unicode": "0xd67",
-        "highlight": true
+        "digit": "\uabf4",
+        "script": "Manipuri",
+        "unicode": "0xabf4",
+        "highlight": false
       },
       {
-        "digit": "\u0b6f",
-        "script": "Odia",
-        "unicode": "0xb6f",
-        "highlight": true
-      },
-      {
-        "digit": "\u1c57",
+        "digit": "\u1c56",
         "script": "Ol Chiki",
-        "unicode": "0x1c57",
-        "highlight": true
+        "unicode": "0x1c56",
+        "highlight": false
       },
       {
-        "digit": "\u0be7",
-        "script": "Tamil",
-        "unicode": "0xbe7",
-        "highlight": true
-      },
-      {
-        "digit": "\u0c6c",
-        "script": "Telugu",
-        "unicode": "0xc6c",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f9",
-        "script": "Urdu",
-        "unicode": "0x6f9",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f3",
+        "digit": "\u06f0",
         "script": "Kashmiri",
-        "unicode": "0x6f3",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f9",
-        "script": "Sindhi",
-        "unicode": "0x6f9",
-        "highlight": true
-      },
+        "unicode": "0x6f0",
+        "highlight": false
+      }
+    ],
+    [
       {
         "digit": "\uabf9",
         "script": "Manipuri",
         "unicode": "0xabf9",
-        "highlight": true
-      },
-      {
-        "digit": "3",
-        "script": "Latin",
-        "unicode": "0x33",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u09ed",
-        "script": "Assamese",
-        "unicode": "0x9ed",
         "highlight": false
       },
       {
-        "digit": "\u09eb",
-        "script": "Bengali",
-        "unicode": "0x9eb",
-        "highlight": true
-      },
-      {
-        "digit": "\u0967",
-        "script": "Devanagari",
-        "unicode": "0x967",
-        "highlight": true
-      },
-      {
-        "digit": "\u0ae6",
-        "script": "Gujarati",
-        "unicode": "0xae6",
-        "highlight": true
-      },
-      {
-        "digit": "\u0a6b",
-        "script": "Gurmukhi",
-        "unicode": "0xa6b",
-        "highlight": true
-      },
-      {
-        "digit": "\u0cee",
-        "script": "Kannada",
-        "unicode": "0xcee",
-        "highlight": true
-      },
-      {
-        "digit": "\u0d68",
-        "script": "Malayalam",
-        "unicode": "0xd68",
-        "highlight": true
-      },
-      {
-        "digit": "\u0b66",
+        "digit": "\u0b6b",
         "script": "Odia",
-        "unicode": "0xb66",
-        "highlight": true
+        "unicode": "0xb6b",
+        "highlight": false
       },
       {
-        "digit": "\u1c59",
+        "digit": "\u1c55",
         "script": "Ol Chiki",
-        "unicode": "0x1c59",
-        "highlight": true
-      },
-      {
-        "digit": "\u0bed",
-        "script": "Tamil",
-        "unicode": "0xbed",
-        "highlight": true
-      },
-      {
-        "digit": "\u0c6a",
-        "script": "Telugu",
-        "unicode": "0xc6a",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f9",
-        "script": "Urdu",
-        "unicode": "0x6f9",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u06f4",
-        "script": "Kashmiri",
-        "unicode": "0x6f4",
+        "unicode": "0x1c55",
         "highlight": false
       },
       {
-        "digit": "\u06f4",
-        "script": "Sindhi",
-        "unicode": "0x6f4",
-        "highlight": false
-      },
-      {
-        "digit": "\uabf5",
-        "script": "Manipuri",
-        "unicode": "0xabf5",
-        "highlight": false
-      },
-      {
-        "digit": "9",
-        "script": "Latin",
-        "unicode": "0x39",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e8",
-        "script": "Assamese",
-        "unicode": "0x9e8",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e9",
-        "script": "Bengali",
-        "unicode": "0x9e9",
-        "highlight": false
-      },
-      {
-        "digit": "\u0966",
-        "script": "Devanagari",
-        "unicode": "0x966",
-        "highlight": false
-      },
-      {
-        "digit": "\u0aed",
-        "script": "Gujarati",
-        "unicode": "0xaed",
-        "highlight": true
-      },
-      {
-        "digit": "\u0a6e",
+        "digit": "\u0a66",
         "script": "Gurmukhi",
-        "unicode": "0xa6e",
+        "unicode": "0xa66",
         "highlight": true
       },
       {
-        "digit": "\u0ce7",
-        "script": "Kannada",
-        "unicode": "0xce7",
-        "highlight": false
-      },
-      {
-        "digit": "\u0d6c",
-        "script": "Malayalam",
-        "unicode": "0xd6c",
-        "highlight": false
-      },
-      {
-        "digit": "\u0b6a",
-        "script": "Odia",
-        "unicode": "0xb6a",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u1c50",
+        "digit": "\u1c55",
         "script": "Ol Chiki",
-        "unicode": "0x1c50",
-        "highlight": false
-      },
-      {
-        "digit": "\u0bec",
-        "script": "Tamil",
-        "unicode": "0xbec",
-        "highlight": false
-      },
-      {
-        "digit": "\u0c68",
-        "script": "Telugu",
-        "unicode": "0xc68",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f8",
-        "script": "Urdu",
-        "unicode": "0x6f8",
+        "unicode": "0x1c55",
         "highlight": true
       },
       {
-        "digit": "\u06f6",
-        "script": "Kashmiri",
-        "unicode": "0x6f6",
+        "digit": "\u0c6e",
+        "script": "Telugu",
+        "unicode": "0xc6e",
         "highlight": true
       },
       {
         "digit": "\u06f2",
-        "script": "Sindhi",
-        "unicode": "0x6f2",
-        "highlight": false
-      },
-      {
-        "digit": "\uabf0",
-        "script": "Manipuri",
-        "unicode": "0xabf0",
-        "highlight": false
-      },
-      {
-        "digit": "8",
-        "script": "Latin",
-        "unicode": "0x38",
-        "highlight": true
-      },
-      {
-        "digit": "\u09ef",
-        "script": "Assamese",
-        "unicode": "0x9ef",
-        "highlight": true
-      },
-      {
-        "digit": "\u09ef",
-        "script": "Bengali",
-        "unicode": "0x9ef",
-        "highlight": false
-      },
-      {
-        "digit": "\u096e",
-        "script": "Devanagari",
-        "unicode": "0x96e",
-        "highlight": false
-      },
-      {
-        "digit": "\u0aec",
-        "script": "Gujarati",
-        "unicode": "0xaec",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u0a68",
-        "script": "Gurmukhi",
-        "unicode": "0xa68",
-        "highlight": false
-      },
-      {
-        "digit": "\u0cee",
-        "script": "Kannada",
-        "unicode": "0xcee",
-        "highlight": false
-      },
-      {
-        "digit": "\u0d66",
-        "script": "Malayalam",
-        "unicode": "0xd66",
-        "highlight": false
-      },
-      {
-        "digit": "\u0b69",
-        "script": "Odia",
-        "unicode": "0xb69",
-        "highlight": true
-      },
-      {
-        "digit": "\u1c54",
-        "script": "Ol Chiki",
-        "unicode": "0x1c54",
-        "highlight": true
-      },
-      {
-        "digit": "\u0bee",
-        "script": "Tamil",
-        "unicode": "0xbee",
-        "highlight": false
-      },
-      {
-        "digit": "\u0c68",
-        "script": "Telugu",
-        "unicode": "0xc68",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f5",
-        "script": "Urdu",
-        "unicode": "0x6f5",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f3",
         "script": "Kashmiri",
-        "unicode": "0x6f3",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f4",
-        "script": "Sindhi",
-        "unicode": "0x6f4",
-        "highlight": false
-      },
-      {
-        "digit": "\uabf2",
-        "script": "Manipuri",
-        "unicode": "0xabf2",
-        "highlight": false
-      },
-      {
-        "digit": "1",
-        "script": "Latin",
-        "unicode": "0x31",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u09e7",
-        "script": "Assamese",
-        "unicode": "0x9e7",
-        "highlight": false
-      },
-      {
-        "digit": "\u09ed",
-        "script": "Bengali",
-        "unicode": "0x9ed",
-        "highlight": false
-      },
-      {
-        "digit": "\u0966",
-        "script": "Devanagari",
-        "unicode": "0x966",
-        "highlight": false
-      },
-      {
-        "digit": "\u0aec",
-        "script": "Gujarati",
-        "unicode": "0xaec",
-        "highlight": true
-      },
-      {
-        "digit": "\u0a6d",
-        "script": "Gurmukhi",
-        "unicode": "0xa6d",
-        "highlight": true
-      },
-      {
-        "digit": "\u0cef",
-        "script": "Kannada",
-        "unicode": "0xcef",
-        "highlight": false
-      },
-      {
-        "digit": "\u0d6e",
-        "script": "Malayalam",
-        "unicode": "0xd6e",
+        "unicode": "0x6f2",
         "highlight": false
       },
       {
@@ -642,367 +850,157 @@
         "highlight": true
       },
       {
-        "digit": "\u1c51",
+        "digit": "\u1c53",
         "script": "Ol Chiki",
-        "unicode": "0x1c51",
+        "unicode": "0x1c53",
         "highlight": true
       },
       {
-        "digit": "\u0bea",
-        "script": "Tamil",
-        "unicode": "0xbea",
-        "highlight": false
-      },
-      {
-        "digit": "\u0c6e",
-        "script": "Telugu",
-        "unicode": "0xc6e",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f0",
-        "script": "Urdu",
-        "unicode": "0x6f0",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u06f8",
-        "script": "Kashmiri",
-        "unicode": "0x6f8",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f6",
-        "script": "Sindhi",
-        "unicode": "0x6f6",
-        "highlight": false
-      },
-      {
-        "digit": "\uabf5",
-        "script": "Manipuri",
-        "unicode": "0xabf5",
-        "highlight": false
-      },
-      {
-        "digit": "1",
-        "script": "Latin",
-        "unicode": "0x31",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e9",
-        "script": "Assamese",
-        "unicode": "0x9e9",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e8",
-        "script": "Bengali",
-        "unicode": "0x9e8",
-        "highlight": false
-      },
-      {
-        "digit": "\u096e",
+        "digit": "\u0967",
         "script": "Devanagari",
-        "unicode": "0x96e",
-        "highlight": false
+        "unicode": "0x967",
+        "highlight": true
       },
       {
-        "digit": "\u0ae8",
+        "digit": "\u0aed",
         "script": "Gujarati",
-        "unicode": "0xae8",
-        "highlight": true
-      },
-      {
-        "digit": "\u0a69",
-        "script": "Gurmukhi",
-        "unicode": "0xa69",
-        "highlight": true
-      },
-      {
-        "digit": "\u0ce6",
-        "script": "Kannada",
-        "unicode": "0xce6",
+        "unicode": "0xaed",
         "highlight": false
       },
       {
-        "digit": "\u0d6c",
-        "script": "Malayalam",
-        "unicode": "0xd6c",
+        "digit": "2",
+        "script": "Latin",
+        "unicode": "0x32",
         "highlight": false
       },
       {
-        "digit": "\u0b6c",
+        "digit": "\u0b6b",
         "script": "Odia",
-        "unicode": "0xb6c",
+        "unicode": "0xb6b",
         "highlight": false
       }
     ],
     [
       {
-        "digit": "\u1c54",
-        "script": "Ol Chiki",
-        "unicode": "0x1c54",
+        "digit": "\u0ae9",
+        "script": "Gujarati",
+        "unicode": "0xae9",
         "highlight": false
       },
       {
-        "digit": "\u0bed",
-        "script": "Tamil",
-        "unicode": "0xbed",
-        "highlight": false
-      },
-      {
-        "digit": "\u0c66",
-        "script": "Telugu",
-        "unicode": "0xc66",
+        "digit": "\u0ceb",
+        "script": "Kannada",
+        "unicode": "0xceb",
         "highlight": false
       },
       {
         "digit": "\u06f9",
         "script": "Urdu",
         "unicode": "0x6f9",
+        "highlight": false
+      },
+      {
+        "digit": "\u09ea",
+        "script": "Assamese",
+        "unicode": "0x9ea",
         "highlight": true
       },
       {
-        "digit": "\u06f3",
-        "script": "Kashmiri",
-        "unicode": "0x6f3",
+        "digit": "0",
+        "script": "Latin",
+        "unicode": "0x30",
+        "highlight": true
+      },
+      {
+        "digit": "\uabf8",
+        "script": "Manipuri",
+        "unicode": "0xabf8",
+        "highlight": true
+      },
+      {
+        "digit": "\u09e7",
+        "script": "Assamese",
+        "unicode": "0x9e7",
+        "highlight": false
+      },
+      {
+        "digit": "\u0c68",
+        "script": "Telugu",
+        "unicode": "0xc68",
+        "highlight": true
+      },
+      {
+        "digit": "\u0cee",
+        "script": "Kannada",
+        "unicode": "0xcee",
+        "highlight": true
+      },
+      {
+        "digit": "\u09ea",
+        "script": "Bengali",
+        "unicode": "0x9ea",
         "highlight": true
       },
       {
         "digit": "\u06f8",
-        "script": "Sindhi",
+        "script": "Kashmiri",
         "unicode": "0x6f8",
         "highlight": false
       },
       {
-        "digit": "\uabf4",
-        "script": "Manipuri",
-        "unicode": "0xabf4",
-        "highlight": false
-      },
-      {
-        "digit": "4",
-        "script": "Latin",
-        "unicode": "0x34",
-        "highlight": true
-      },
-      {
-        "digit": "\u09ec",
+        "digit": "\u09e7",
         "script": "Assamese",
-        "unicode": "0x9ec",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e6",
-        "script": "Bengali",
-        "unicode": "0x9e6",
+        "unicode": "0x9e7",
         "highlight": false
       },
       {
-        "digit": "\u096f",
-        "script": "Devanagari",
-        "unicode": "0x96f",
-        "highlight": false
-      },
-      {
-        "digit": "\u0aeb",
-        "script": "Gujarati",
-        "unicode": "0xaeb",
+        "digit": "\u0d67",
+        "script": "Malayalam",
+        "unicode": "0xd67",
         "highlight": false
       }
     ],
     [
+      {
+        "digit": "\u09e7",
+        "script": "Bengali",
+        "unicode": "0x9e7",
+        "highlight": false
+      },
+      {
+        "digit": "\u1c57",
+        "script": "Ol Chiki",
+        "unicode": "0x1c57",
+        "highlight": false
+      },
+      {
+        "digit": "\u0c6a",
+        "script": "Telugu",
+        "unicode": "0xc6a",
+        "highlight": false
+      },
       {
         "digit": "\u0a6b",
         "script": "Gurmukhi",
         "unicode": "0xa6b",
-        "highlight": false
+        "highlight": true
       },
       {
-        "digit": "\u0ce6",
-        "script": "Kannada",
-        "unicode": "0xce6",
-        "highlight": false
+        "digit": "\u0966",
+        "script": "Devanagari",
+        "unicode": "0x966",
+        "highlight": true
       },
       {
-        "digit": "\u0d6b",
-        "script": "Malayalam",
-        "unicode": "0xd6b",
-        "highlight": false
+        "digit": "\u0c68",
+        "script": "Telugu",
+        "unicode": "0xc68",
+        "highlight": true
       },
       {
         "digit": "\u0b6e",
         "script": "Odia",
         "unicode": "0xb6e",
-        "highlight": true
-      },
-      {
-        "digit": "\u1c52",
-        "script": "Ol Chiki",
-        "unicode": "0x1c52",
-        "highlight": true
-      },
-      {
-        "digit": "\u0be8",
-        "script": "Tamil",
-        "unicode": "0xbe8",
-        "highlight": false
-      },
-      {
-        "digit": "\u0c69",
-        "script": "Telugu",
-        "unicode": "0xc69",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f1",
-        "script": "Urdu",
-        "unicode": "0x6f1",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f7",
-        "script": "Kashmiri",
-        "unicode": "0x6f7",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f2",
-        "script": "Sindhi",
-        "unicode": "0x6f2",
-        "highlight": false
-      },
-      {
-        "digit": "\uabf5",
-        "script": "Manipuri",
-        "unicode": "0xabf5",
-        "highlight": false
-      },
-      {
-        "digit": "3",
-        "script": "Latin",
-        "unicode": "0x33",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u09eb",
-        "script": "Assamese",
-        "unicode": "0x9eb",
-        "highlight": false
-      },
-      {
-        "digit": "\u09ef",
-        "script": "Bengali",
-        "unicode": "0x9ef",
-        "highlight": false
-      },
-      {
-        "digit": "\u096a",
-        "script": "Devanagari",
-        "unicode": "0x96a",
-        "highlight": false
-      },
-      {
-        "digit": "\u0ae6",
-        "script": "Gujarati",
-        "unicode": "0xae6",
-        "highlight": true
-      },
-      {
-        "digit": "\u0a6e",
-        "script": "Gurmukhi",
-        "unicode": "0xa6e",
-        "highlight": true
-      },
-      {
-        "digit": "\u0ce7",
-        "script": "Kannada",
-        "unicode": "0xce7",
-        "highlight": false
-      },
-      {
-        "digit": "\u0d68",
-        "script": "Malayalam",
-        "unicode": "0xd68",
-        "highlight": false
-      },
-      {
-        "digit": "\u0b6e",
-        "script": "Odia",
-        "unicode": "0xb6e",
-        "highlight": true
-      },
-      {
-        "digit": "\u1c54",
-        "script": "Ol Chiki",
-        "unicode": "0x1c54",
-        "highlight": true
-      },
-      {
-        "digit": "\u0bee",
-        "script": "Tamil",
-        "unicode": "0xbee",
-        "highlight": false
-      },
-      {
-        "digit": "\u0c67",
-        "script": "Telugu",
-        "unicode": "0xc67",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f1",
-        "script": "Urdu",
-        "unicode": "0x6f1",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u06f1",
-        "script": "Kashmiri",
-        "unicode": "0x6f1",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f7",
-        "script": "Sindhi",
-        "unicode": "0x6f7",
-        "highlight": false
-      },
-      {
-        "digit": "\uabf4",
-        "script": "Manipuri",
-        "unicode": "0xabf4",
-        "highlight": false
-      },
-      {
-        "digit": "5",
-        "script": "Latin",
-        "unicode": "0x35",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e6",
-        "script": "Assamese",
-        "unicode": "0x9e6",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e8",
-        "script": "Bengali",
-        "unicode": "0x9e8",
-        "highlight": false
-      },
-      {
-        "digit": "\u096e",
-        "script": "Devanagari",
-        "unicode": "0x96e",
         "highlight": false
       },
       {
@@ -1012,109 +1010,225 @@
         "highlight": true
       },
       {
-        "digit": "\u0a67",
-        "script": "Gurmukhi",
-        "unicode": "0xa67",
+        "digit": "\u06f1",
+        "script": "Kashmiri",
+        "unicode": "0x6f1",
         "highlight": true
       },
       {
-        "digit": "\u0ce6",
-        "script": "Kannada",
-        "unicode": "0xce6",
+        "digit": "\u06f0",
+        "script": "Sindhi",
+        "unicode": "0x6f0",
+        "highlight": true
+      },
+      {
+        "digit": "\u0be8",
+        "script": "Tamil",
+        "unicode": "0xbe8",
         "highlight": false
       },
       {
-        "digit": "\u0d68",
-        "script": "Malayalam",
-        "unicode": "0xd68",
+        "digit": "\u0c6d",
+        "script": "Telugu",
+        "unicode": "0xc6d",
         "highlight": false
       },
       {
-        "digit": "\u0b6d",
-        "script": "Odia",
-        "unicode": "0xb6d",
+        "digit": "\u0a66",
+        "script": "Gurmukhi",
+        "unicode": "0xa66",
         "highlight": false
       }
     ],
     [
       {
-        "digit": "\u1c50",
-        "script": "Ol Chiki",
-        "unicode": "0x1c50",
-        "highlight": false
-      },
-      {
-        "digit": "\u0be7",
-        "script": "Tamil",
-        "unicode": "0xbe7",
-        "highlight": false
-      },
-      {
-        "digit": "\u0c6f",
-        "script": "Telugu",
-        "unicode": "0xc6f",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f3",
+        "digit": "\u06f1",
         "script": "Urdu",
-        "unicode": "0x6f3",
+        "unicode": "0x6f1",
+        "highlight": false
+      },
+      {
+        "digit": "\u09ef",
+        "script": "Assamese",
+        "unicode": "0x9ef",
+        "highlight": false
+      },
+      {
+        "digit": "\u0b69",
+        "script": "Odia",
+        "unicode": "0xb69",
+        "highlight": false
+      },
+      {
+        "digit": "\u1c58",
+        "script": "Ol Chiki",
+        "unicode": "0x1c58",
         "highlight": true
+      },
+      {
+        "digit": "\u0d6b",
+        "script": "Malayalam",
+        "unicode": "0xd6b",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f2",
+        "script": "Sindhi",
+        "unicode": "0x6f2",
+        "highlight": true
+      },
+      {
+        "digit": "\u0a67",
+        "script": "Gurmukhi",
+        "unicode": "0xa67",
+        "highlight": false
+      },
+      {
+        "digit": "\u0ce7",
+        "script": "Kannada",
+        "unicode": "0xce7",
+        "highlight": true
+      },
+      {
+        "digit": "\u0be6",
+        "script": "Tamil",
+        "unicode": "0xbe6",
+        "highlight": true
+      },
+      {
+        "digit": "\u0c6b",
+        "script": "Telugu",
+        "unicode": "0xc6b",
+        "highlight": true
+      },
+      {
+        "digit": "\u06f5",
+        "script": "Kashmiri",
+        "unicode": "0x6f5",
+        "highlight": false
+      },
+      {
+        "digit": "5",
+        "script": "Latin",
+        "unicode": "0x35",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f9",
+        "script": "Kashmiri",
+        "unicode": "0x6f9",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "\u0b6c",
+        "script": "Odia",
+        "unicode": "0xb6c",
+        "highlight": false
+      },
+      {
+        "digit": "\uabf4",
+        "script": "Manipuri",
+        "unicode": "0xabf4",
+        "highlight": false
+      },
+      {
+        "digit": "\u096a",
+        "script": "Devanagari",
+        "unicode": "0x96a",
+        "highlight": false
+      },
+      {
+        "digit": "\u0aec",
+        "script": "Gujarati",
+        "unicode": "0xaec",
+        "highlight": false
+      },
+      {
+        "digit": "\u0c68",
+        "script": "Telugu",
+        "unicode": "0xc68",
+        "highlight": false
+      },
+      {
+        "digit": "\u0b68",
+        "script": "Odia",
+        "unicode": "0xb68",
+        "highlight": false
+      },
+      {
+        "digit": "\u09ef",
+        "script": "Bengali",
+        "unicode": "0x9ef",
+        "highlight": false
+      },
+      {
+        "digit": "4",
+        "script": "Latin",
+        "unicode": "0x34",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f8",
+        "script": "Sindhi",
+        "unicode": "0x6f8",
+        "highlight": false
+      },
+      {
+        "digit": "\u09ef",
+        "script": "Bengali",
+        "unicode": "0x9ef",
+        "highlight": false
+      },
+      {
+        "digit": "\u0a6b",
+        "script": "Gurmukhi",
+        "unicode": "0xa6b",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f4",
+        "script": "Urdu",
+        "unicode": "0x6f4",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f9",
+        "script": "Sindhi",
+        "unicode": "0x6f9",
+        "highlight": false
+      }
+    ],
+    [
+      {
+        "digit": "3",
+        "script": "Latin",
+        "unicode": "0x33",
+        "highlight": false
+      },
+      {
+        "digit": "\u06f0",
+        "script": "Sindhi",
+        "unicode": "0x6f0",
+        "highlight": false
+      },
+      {
+        "digit": "\u0d69",
+        "script": "Malayalam",
+        "unicode": "0xd69",
+        "highlight": false
       },
       {
         "digit": "\u06f8",
         "script": "Kashmiri",
         "unicode": "0x6f8",
-        "highlight": true
-      },
-      {
-        "digit": "\u06f5",
-        "script": "Sindhi",
-        "unicode": "0x6f5",
         "highlight": false
       },
       {
-        "digit": "\uabf2",
-        "script": "Manipuri",
-        "unicode": "0xabf2",
-        "highlight": false
-      },
-      {
-        "digit": "1",
-        "script": "Latin",
-        "unicode": "0x31",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e7",
-        "script": "Assamese",
-        "unicode": "0x9e7",
-        "highlight": true
-      },
-      {
-        "digit": "\u09e6",
-        "script": "Bengali",
-        "unicode": "0x9e6",
-        "highlight": false
-      },
-      {
-        "digit": "\u096b",
+        "digit": "\u0967",
         "script": "Devanagari",
-        "unicode": "0x96b",
-        "highlight": false
-      },
-      {
-        "digit": "\u0aeb",
-        "script": "Gujarati",
-        "unicode": "0xaeb",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u0a6b",
-        "script": "Gurmukhi",
-        "unicode": "0xa6b",
+        "unicode": "0x967",
         "highlight": false
       },
       {
@@ -1130,27 +1244,15 @@
         "highlight": false
       },
       {
-        "digit": "\u0b6a",
-        "script": "Odia",
-        "unicode": "0xb6a",
+        "digit": "\uabf4",
+        "script": "Manipuri",
+        "unicode": "0xabf4",
         "highlight": false
       },
       {
-        "digit": "\u1c54",
-        "script": "Ol Chiki",
-        "unicode": "0x1c54",
-        "highlight": false
-      },
-      {
-        "digit": "\u0bec",
-        "script": "Tamil",
-        "unicode": "0xbec",
-        "highlight": false
-      },
-      {
-        "digit": "\u0c68",
-        "script": "Telugu",
-        "unicode": "0xc68",
+        "digit": "\u06f4",
+        "script": "Kashmiri",
+        "unicode": "0x6f4",
         "highlight": false
       },
       {
@@ -1160,126 +1262,47 @@
         "highlight": false
       },
       {
-        "digit": "\u06f9",
-        "script": "Kashmiri",
-        "unicode": "0x6f9",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f4",
-        "script": "Sindhi",
-        "unicode": "0x6f4",
-        "highlight": false
-      },
-      {
-        "digit": "\uabf8",
-        "script": "Manipuri",
-        "unicode": "0xabf8",
-        "highlight": false
-      },
-      {
-        "digit": "9",
-        "script": "Latin",
-        "unicode": "0x39",
-        "highlight": false
-      }
-    ],
-    [
-      {
-        "digit": "\u09eb",
-        "script": "Assamese",
-        "unicode": "0x9eb",
-        "highlight": false
-      },
-      {
-        "digit": "\u09ea",
-        "script": "Bengali",
-        "unicode": "0x9ea",
-        "highlight": false
-      },
-      {
-        "digit": "\u096f",
-        "script": "Devanagari",
-        "unicode": "0x96f",
-        "highlight": false
-      },
-      {
-        "digit": "\u0ae9",
-        "script": "Gujarati",
-        "unicode": "0xae9",
-        "highlight": false
-      },
-      {
-        "digit": "\u0a66",
-        "script": "Gurmukhi",
-        "unicode": "0xa66",
-        "highlight": false
-      },
-      {
-        "digit": "\u0ce9",
-        "script": "Kannada",
-        "unicode": "0xce9",
-        "highlight": false
-      },
-      {
         "digit": "\u0d6e",
         "script": "Malayalam",
         "unicode": "0xd6e",
         "highlight": false
       },
       {
-        "digit": "\u0b67",
-        "script": "Odia",
-        "unicode": "0xb67",
-        "highlight": false
-      },
-      {
-        "digit": "\u1c59",
-        "script": "Ol Chiki",
-        "unicode": "0x1c59",
-        "highlight": false
-      },
-      {
-        "digit": "\u0bec",
+        "digit": "\u0bee",
         "script": "Tamil",
-        "unicode": "0xbec",
+        "unicode": "0xbee",
         "highlight": false
       },
       {
-        "digit": "\u0c6a",
-        "script": "Telugu",
-        "unicode": "0xc6a",
-        "highlight": false
-      },
-      {
-        "digit": "\u06f4",
-        "script": "Urdu",
-        "unicode": "0x6f4",
+        "digit": "\u0a67",
+        "script": "Gurmukhi",
+        "unicode": "0xa67",
         "highlight": false
       }
     ]
   ],
   "script_usage": {
-    "Assamese": 13,
-    "Bengali": 13,
-    "Devanagari": 13,
-    "Gujarati": 13,
-    "Gurmukhi": 13,
-    "Kannada": 13,
-    "Malayalam": 13,
-    "Odia": 13,
-    "Ol Chiki": 13,
+    "Assamese": 12,
+    "Bengali": 10,
+    "Devanagari": 11,
+    "Gujarati": 8,
+    "Gurmukhi": 17,
+    "Kannada": 12,
+    "Malayalam": 12,
+    "Odia": 17,
+    "Ol Chiki": 15,
     "Tamil": 13,
-    "Telugu": 13,
-    "Urdu": 13,
-    "Kashmiri": 12,
-    "Sindhi": 12,
-    "Manipuri": 12,
-    "Latin": 12
+    "Telugu": 16,
+    "Urdu": 11,
+    "Kashmiri": 14,
+    "Sindhi": 13,
+    "Manipuri": 11,
+    "Latin": 16
   },
   "total_scripts_used": 16,
-  "rows": 17,
-  "cols": 12,
+  "rows": 16,
+  "cols": 13,
   "num_digits": 200,
-  "seed": 42
+  "seed": 702322,
+  "sampling_strategy": "random"
 }
