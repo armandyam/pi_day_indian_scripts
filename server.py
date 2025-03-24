@@ -18,10 +18,10 @@ def generate_pi_data():
     data = request.json
     num_digits = data.get('num_digits', 200)
     seed = data.get('seed')
-    sampling_strategy = data.get('sampling_strategy', 'random')  # Default to random
-    script_weights = data.get('script_weights', None)
+    sampling_strategy = "random"  # Always use random strategy
+    script_weights = None
     
-    print("In generate pi data before", seed, "strategy:", sampling_strategy)
+    print("In generate pi data before", seed)
 
     # Convert seed to integer if it's not None
     if seed is not None:
@@ -36,7 +36,7 @@ def generate_pi_data():
         print("No seed provided, using random seed")
     print("In generate pi data", seed)
 
-    # Generate JSON data with the specified sampling strategy
+    # Generate JSON data with the random sampling strategy
     json_data = generate_json_data(
         num_digits, 
         seed, 

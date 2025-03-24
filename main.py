@@ -42,7 +42,7 @@ WELL_SUPPORTED_SCRIPTS = [
 
 # Constants for grid configuration and constraints
 MIN_DIGITS = 10
-MAX_DIGITS = 440
+MAX_DIGITS = 430  # Changed from 440 to 430 to match the HTML slider
 A4_RATIO = 1.414  # A4 page ratio (height/width)
 
 # A4 paper dimensions in points
