@@ -28,8 +28,8 @@ A beautiful visualization tool for π (pi) day that displays the digits of π us
 
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/pi_day_visualization.git
-cd pi_day_visualization
+git clone https://github.com/armandyam/pi_day_indian_scripts.git
+cd pi_day_indian_scripts
 ```
 
 2. Create a virtual environment and install dependencies:
