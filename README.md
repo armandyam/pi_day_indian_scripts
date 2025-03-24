@@ -107,7 +107,3 @@ The program:
 
 - The digits of π are displayed in 15+ different Indian scripts
 - Fonts are from the Google Noto Sans project
-
-## License
-
-MIT License 
